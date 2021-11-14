@@ -1,7 +1,7 @@
 # JavaAlgorithmTest
 Java Algorithm Test on Nowcoder
 
-##Basic Code
+## Basic Code
 
 - Q1: 将一个小于2147483647的double类型变量转化为int类型
 - Q2: 输入两个正整数a和b，输出这两个正整数的和，差，积，商，模（若a>b则输出a-b，a/b，a%b的值反之输出b-a，b/a，b%a的值，不考虑小数，请使用int类型）
