@@ -1,7 +1,7 @@
 # JavaAlgorithmTest
 Java Algorithm Test on Nowcoder
 
-## Basic Code
+## Basic Code 01 基础语法
 
 - Q1: 将一个小于2147483647的double类型变量转化为int类型
 - Q2: 输入两个正整数a和b，输出这两个正整数的和，差，积，商，模（若a>b则输出a-b，a/b，a%b的值反之输出b-a，b/a，b%a的值，不考虑小数，请使用int类型）
@@ -30,7 +30,8 @@ Java Algorithm Test on Nowcoder
 - Q18: 给定一个二维数组，请你编写一个求和函数，计算出这个数组元素的和
 
 
-## Basic Code 修饰符封装
+## Basic Code 02 面向对象_修饰符封装
+
 - Q19: 现有一个Data类，内部定义了属性x和y，在main方法中实例化了Data类，并计算了data对象中x和y的和。但是，Data类的定义存在错误，请你将这些错误修正过来，使得main方法中的求和逻辑可以正常执行。
 - Q20: 采用封装的思想，为Person类定义年龄属性，要求：
        修改年龄时判断其范围，若年龄小于0则按0输出，若年龄大于200则按200输出。
@@ -43,6 +44,10 @@ Java Algorithm Test on Nowcoder
 - Q27: 父类Base中定义了若干get方法，以及一个sum方法，sum方法是对一组数字的求和。请在子类 Sub 中重写 getX() 方法，使得 sum 方法返回结果为 x*10+y
 - Q28: Singleton类是单例的，每次调用该类的getInstance()方法都将得到相同的实例，目前该类中这个方法尚未完成，请将其补充完整，使得main()函数中的判断返回真（不考虑线程安全）。
 
+
+## Basic Code 03 常用API
+
+- Q29: 动态字符串StringBuilder: 将一个由英文字母组成的字符串转换成从末尾开始每三个字母用逗号分隔的形式。
 
 
 
