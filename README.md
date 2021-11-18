@@ -90,6 +90,11 @@ Java Algorithm Test on Nowcoder
 - Q43: 有三个客户对象，将三个客户对象存入集合中，并将其按照消费总额从高到低排序。Collections.sort
 
 
+## Basic Code 05 综合练习
+
+- Q44: 输入一行字符串，分别统计出其中英文字母、空格、数字和其它字符的个数
+
+
 
 ## HWJ Code
 
