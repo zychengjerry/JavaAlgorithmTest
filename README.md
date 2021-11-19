@@ -178,6 +178,17 @@ Java Algorithm Test on Nowcoder
         输出：
         1到100之间有24个大于2的素数
 
+- Q49: 已知：
+       1. 图形类Shape，该类中定义了图形的周长属性，以及返回周长的方法。
+       2. Area接口，该接口中定义了返回面积的方法getArea()。
+       
+       要求：
+       1. 定义圆形类Circle，使其继承于Shape，并实现Area接口。
+       2. 定义方形类Square，使其继承于Shape，并实现Area接口。
+       注意：
+       圆周率要使用Math类中的常量。
+
+
 
 ## HWJ Code
 
