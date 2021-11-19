@@ -13,13 +13,25 @@ public class Q14_判断质数 {
     public Boolean isPrimeNumber(int number) {
 
         //write your code here......
-        int n = number /2;
-        for (int i = 2; i < n; i++) {
-            if (number % i == 0){
+        // 只有两个正因数（1和自己）的自然数即为质数。比1大但不是素数的数称为合数。1和0既非素数也非合数。
+
+//        int n = number /2;
+//        for (int i = 2; i < n; i++) {
+//            if (number % i == 0){
+//                return false;
+//            }
+//        }
+//        return true;
+        if (number == 0 || number == 1){
+            return false;
+        }
+
+        for (int i = 2; i * i <= number; i++) {
+            if (number % i == 0) {
                 return false;
             }
-        }
-        return true;
+        } return true;
+
 
     }
 }
