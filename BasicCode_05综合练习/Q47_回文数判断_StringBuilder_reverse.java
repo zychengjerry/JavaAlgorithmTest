@@ -34,6 +34,4 @@ public class Q47_回文数判断_StringBuilder_reverse {
 //            System.out.println("不是回文数");
         }
 
-
-    }
 }
