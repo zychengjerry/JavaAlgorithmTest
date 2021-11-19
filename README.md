@@ -161,6 +161,7 @@ Java Algorithm Test on Nowcoder
        输出：
        [Tom, Lily, Jim]
        
+- Q47: 请补全预设代码中判断回文数的方法，若输入的五位数字是回文是则返回true，否则返回false。回文数即个位与万位相同，十位与千位相同的数字。如：12321、89898
 
 
 ## HWJ Code
