@@ -188,6 +188,7 @@ Java Algorithm Test on Nowcoder
        注意：
        圆周率要使用Math类中的常量。
 
+- Q50: 冒泡排序。有一个长度为7的无序数组，按照从小到大的顺序排序后输出。
 
 
 ## HWJ Code
