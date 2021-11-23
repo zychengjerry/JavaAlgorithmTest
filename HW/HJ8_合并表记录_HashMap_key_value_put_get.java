@@ -26,14 +26,13 @@ package HW;
 1 2
 3 4*/
 
+import java.util.*;
+
 /**
  *
  * @author: JerryCheng
  * Date: 2021/11/23 15:46
  */
-
-import java.util.*;
-
 public class HJ8_合并表记录_HashMap_key_value_put_get {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

@@ -4,14 +4,13 @@ package HW;
 
 数据范围：保证输入的数字在 32 位浮点数范围内*/
 
+import java.util.Scanner;
+
 /**
  *
  * @author: JerryCheng
  * Date: 2021/11/23 15:17
  */
-
-import java.util.Scanner;
-
 public class HJ7_取整_round {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
