@@ -35,6 +35,8 @@ public class P8_计数排序 {
 
 class CountSort {
 
+    // 有Bug
+
     public static void main(String[] args){
         int[] arr=new int[]{5,7,2,9,4,1,0,5,8,7};
         System.out.println(Arrays.toString(arr));
