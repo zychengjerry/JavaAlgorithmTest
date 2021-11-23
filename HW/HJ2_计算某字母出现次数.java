@@ -1,6 +1,6 @@
 package HW;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class HJ2_计算某字母出现次数 {
 

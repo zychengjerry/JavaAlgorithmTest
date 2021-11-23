@@ -1,6 +1,6 @@
 package HW;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class HJ1_字符串最后一个单词的长度 {
 
