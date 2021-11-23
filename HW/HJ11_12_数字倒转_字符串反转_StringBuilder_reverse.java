@@ -30,7 +30,7 @@ import java.util.*;
  * Date: 2021/11/23 17:04
  */
 
-public class HJ11_数字倒转_StringBuilder_reverse {
+public class HJ11_12_数字倒转_字符串反转_StringBuilder_reverse {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String str = scan.nextLine();
