@@ -14,7 +14,7 @@ import java.util.Collections;
 public class P9_桶排序 {
 
     public static void main(String[] args){
-        int[] arr=new int[]{5,7,2,9,4,1,0,5,8,7};
+        int[] arr=new int[]{1,1,1,3,5,6,7,9,12,0,89,13123,10};
         System.out.println(Arrays.toString(arr));
         bucketSort(arr);
         System.out.println(Arrays.toString(arr));

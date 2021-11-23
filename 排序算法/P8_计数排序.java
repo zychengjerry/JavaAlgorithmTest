@@ -12,7 +12,7 @@ import java.util.Arrays;
 
 public class P8_计数排序 {
     public static void main(String[] args) {
-        int[] array = new int[] {1, 0, 1, 2, 3, 6, 3, 2, 9, 8, 7, 1, 5, 2, 3};
+        int[] array = new int[] {1,1,1,3,5,6,7,9,12,0,89,13123,10};
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
         for(int a : array)  if(a > max) max = a; //find max value
@@ -33,40 +33,40 @@ public class P8_计数排序 {
     }
 }
 
-class CountSort {
-
-    // 有Bug
-
-    public static void main(String[] args){
-        int[] arr=new int[]{5,7,2,9,4,1,0,5,8,7};
-        System.out.println(Arrays.toString(arr));
-        countSort(arr);
-        System.out.println(Arrays.toString(arr));
-    }
-
-    public static void countSort(int[] arr) {
-        //找出数组中的最大值
-        int max = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
-            }
-        }
-        //初始化计数数组
-        int[] countArr = new int[max + 1];
-
-        //计数
-        for (int i = 0; i < arr.length; i++) {
-            countArr[arr[i]]++;
-            arr[i] = 0;
-        }
-
-        //排序
-        int index = 0;
-        for (int i = 0; i < countArr.length; i++) {
-            if (countArr[i] > 0) {
-                arr[index++] = i;
-            }
-        }
-    }
-}
+//class CountSort {
+//
+//    // 有Bug
+//
+//    public static void main(String[] args){
+//        int[] arr=new int[]{1,1,1,3,5,6,7,9,12,0,89,13123,10};
+//        System.out.println(Arrays.toString(arr));
+//        countSort(arr);
+//        System.out.println(Arrays.toString(arr));
+//    }
+//
+//    public static void countSort(int[] arr) {
+//        //找出数组中的最大值
+//        int max = arr[0];
+//        for (int i = 1; i < arr.length; i++) {
+//            if (arr[i] > max) {
+//                max = arr[i];
+//            }
+//        }
+//        //初始化计数数组
+//        int[] countArr = new int[max + 1];
+//
+//        //计数
+//        for (int i = 0; i < arr.length; i++) {
+//            countArr[arr[i]]++;
+//            arr[i] = 0;
+//        }
+//
+//        //排序
+//        int index = 0;
+//        for (int i = 0; i < countArr.length; i++) {
+//            if (countArr[i] > 0) {
+//                arr[index++] = i;
+//            }
+//        }
+//    }
+//}
