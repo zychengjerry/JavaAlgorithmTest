@@ -2,7 +2,7 @@ package HW;
 
 import java.util.*;
 
-public class HJ2_计算某字母出现次数 {
+public class HJ2_计算某字母出现次数_String_replaceAll {
 
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
