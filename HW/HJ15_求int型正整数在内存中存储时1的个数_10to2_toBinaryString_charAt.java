@@ -34,7 +34,8 @@ public class HJ15_求int型正整数在内存中存储时1的个数_10to2_toBina
     public static int check(String str) {
         int count = 0;
         for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == '1') {             //注意char 单引号！！！！！！！！！'1'
+            if (str.charAt(i) == '1') {             // 注意char 单引号！！！！！！！！！'1'
+                                                    // int: 1   char: '1'   string: "1"
                 count ++;
             }
         }
