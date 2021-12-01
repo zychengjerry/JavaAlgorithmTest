@@ -2,6 +2,12 @@ package HW;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author: Jerry Cheng
+ * Date: 2021/12/1 11:36
+ */
+
 public class HJ0_句子中单词的平均长度保留两位小数_length_format {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
