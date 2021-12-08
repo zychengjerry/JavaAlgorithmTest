@@ -4,6 +4,12 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
+/**
+ *
+ * @author: Jerry Cheng
+ * Date: 2021/12/8 17:33
+ */
+
 public class HJ19_元音字母大写 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
